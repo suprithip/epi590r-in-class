@@ -1,5 +1,6 @@
 usethis::use_git_config(user.name = "Suprithi Pingle", user.email = "suprithi.pingle@gmail.com")
 usethis::create_github_token()
+gitcreds::gitcreds_set()
 
 library(dplyr)
 nlsy <- nlsy |>
